@@ -12,5 +12,6 @@
     void IncrementCount()
     {
         currentCount++;
+        JSRuntime.Current.InvokeAsync<string>("window.showPopup", $"Counter: {currentCount}");
     }
 }

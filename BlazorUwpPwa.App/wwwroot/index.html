@@ -13,5 +13,12 @@
     <app>Loading...</app>
 
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        if (window.Windows) {
+            window.showPopup = function(message) {
+                new Windows.UI.Popups.MessageDialog(message).showAsync();
+            };
+        }
+    </script>
 </body>
 </html>
