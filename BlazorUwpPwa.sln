@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorUwpPwa.App", "BlazorUwpPwa.App\BlazorUwpPwa.App.csproj", "{15A0B2D9-DCF9-4857-8C13-3544B61FA676}"
 EndProject
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BlazorUwpPwa.Host", "BlazorUwpPwa.Host\BlazorUwpPwa.Host\BlazorUwpPwa.Host.jsproj", "{F0193F77-8F15-49D4-B060-62634C3CE6EF}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BlazorUwpPwa.Host", "BlazorUwpPwa.Host\BlazorUwpPwa.Host.jsproj", "{F0193F77-8F15-49D4-B060-62634C3CE6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
